@@ -1,8 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: cursive; */
 }
@@ -260,22 +261,22 @@
     font-size: 19px;
     line-height: 35px;
     color: #767676;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 .mini-content{
   font-size: 16px;
   color: #767676;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .prcontent{
   font-size: 14px;
   color: #767676;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .bluecontent{
   font-size: 14px;
   color: #0083C7;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .alphonsa{
   color: #0083C7;
@@ -418,7 +419,7 @@
     color: #161A36;
     font-weight: 600;
     font-size: 17px;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 .vision-sec{
     background-color: #c7aa8b;
@@ -534,7 +535,7 @@
     color: #0083C7;
     margin-bottom: 15px;
     font-weight: 600;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 .product p{
     color: #000;
@@ -603,7 +604,8 @@ footer .address{
     font-weight: 900;
     font-size: 44px;
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: 'DM Serif Display', serif;
 }
 .product-bg-img{
     /* background-image: url(./images/shipbg.png); */
@@ -643,7 +645,7 @@ footer .address{
 }
 .detail-content p{
     margin: 7px auto;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 .detail-content p strong{
   font-size: 15px;
@@ -1043,7 +1045,7 @@ footer .address{
     text-align: left !important;
     padding: 20px;
     border-left: 5px solid #0083C7;
-    font-family: cursive;
+    /* font-family: cursive; */
   }
   .container-fluid{
     margin: 0;
@@ -1297,7 +1299,7 @@ margin: auto;
 .process-head{
   font-weight: 600;
   font-size: 18px;
-  font-family: cursive;
+  /* font-family: cursive; */
   text-align: center;
 }
 
@@ -1328,6 +1330,178 @@ margin: auto;
 
 
   @media only screen and (max-width: 768px) {
+
+    .home-bg-img1{
+      width: 100%;
+      height: auto;
+      padding: 20px 0px;
+      background-image:
+      linear-gradient(rgba(206, 207, 215, 0.52), rgba(24, 31, 35, 0.73)),
+      url('images/home_slider1.jpg');
+      /* background-image: url(./images/home_slider1.jpg); */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .home-bg-img2{
+    width: 100%;
+    height: auto;
+    background-image:
+    linear-gradient(rgba(206, 207, 215, 0.52), rgba(24, 31, 35, 0.73)),
+    url('images/home_slider2.jpg');
+    /* background-image: url(./images/home_slider2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-bg-img3{
+    width: 100%;
+    height: auto;
+    background-image:
+    linear-gradient(rgba(206, 207, 215, 0.52), rgba(24, 31, 35, 0.73)),
+    url('images/home_slider3.jpg');
+    /* background-image: url(./images/home_slider3.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .about-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* background-image: url(./images/about-banner.jpeg); */
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/about-banner.jpeg);
+    }
+
+    .contact-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* background-image: url(./images/about-banner.jpeg); */
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/contact-bg.jpg);
+    }
+
+    .product-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/Products-banner.png);
+    }
+
+    .veg-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/vegetable-banner.jpg);
+    }
+
+    .mango-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/mangopulp-banner2.jpg);
+    }
+
+    .coconut-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/coconut-banner.jpg);
+    }
+
+    .banana-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/banana-banner.jpg);
+    }
+
+    .areca-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/areca-banner.jpg);
+    }
+
+    .jutebag-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/jutebag-banner2.jpg);
+    }
+
+    .pulse-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/pulse-banner.jpg);
+    }
+
+    .cocopeat-bg{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/product/coirpeat-banner1.png);
+    }
+
+
     .beyond-video video{
       top: 70px;
     }
@@ -1346,6 +1520,8 @@ margin: auto;
     }
     .page-sub-head{
       font-size:20px;
+      color: #161A36;
+      font-weight: 600;
     }
     .page-sub-head-white{
       font-size:23px;
@@ -1366,6 +1542,7 @@ margin: auto;
       font-size: 12px;
     }
     .page-content{
+      color: #767676;
       font-size: 14px;
     }
     .page-content-white{
@@ -1438,10 +1615,14 @@ margin: auto;
     .bedder-box{
       width: 100%;
     }
+    
   }
   
 
   @media only screen and (max-width: 576px) {
+    .home-banner-content{
+      font-size: 30px;
+    }
     .tracking-sec{
         display: none;
     }
@@ -1457,17 +1638,20 @@ margin: auto;
   {
     padding-left: 16%;
   }
+  .sol-grey-bg img{
+    height: 60px;
+  }
   .sol-act-img {
-    width: 40px;
+    width: 60px;
     position: absolute;
     top: 38%;
-    left: -5%;
+    left: -9%;
   }
   .sol-act-img-last {
-    width: 40px;
+    width: 60px;
     position: absolute;
     top: 38%;
-    left: -5%;
+    left: -9%;
   }
   .sol-img-card
   {
@@ -1475,7 +1659,7 @@ margin: auto;
   margin: 2rem;
   padding: 2rem;
   border-radius: 15px;
-  border: 1px solid #E1E1E1;
+  /* border: 1px solid #E1E1E1; */
   }
   .sol-plain {
     height: 50%;
